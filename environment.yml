@@ -1,0 +1,19 @@
+name: solweig-cuda
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=2,<2.6
+  - scipy>=1.11,<2
+  - gdal>=3.6,<4
+  - rasterio>=1.3,<2
+  - shapely>=2,<3
+  - cuda-version=12
+  - cuda-nvrtc
+  - cuda-cudart
+  - cuda-cudart-dev
+  - setuptools>=77
+  - wheel
+  - pip
+  - pip:
+      - cupy-cuda12x>=14.1,<15

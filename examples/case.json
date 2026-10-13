@@ -1,0 +1,22 @@
+{
+  "case_name": "dublin_city_centre_4km",
+  "case_type": "open_data",
+  "case_size_m": 4000,
+  "resolution_m": 1,
+  "core_area_m": 1800,
+  "buffer_area_m": 100,
+  "start_date": "2025-06-01",
+  "end_date": "2025-06-02",
+  "building_dsm_path": "data/Building_DSM.tif",
+  "tree_path": "data/Trees.tif",
+  "dem_path": "data/DEM.tif",
+  "met_file": "data/met.txt",
+  "output_path": "output",
+  "longitude": -6.2591,
+  "latitude": 53.3473,
+  "utc_offset_hours": 0,
+  "site_altitude_m": 3,
+  "async_output": true,
+  "output_chunk_steps": 24,
+  "output_queue_size": 2
+}

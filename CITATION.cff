@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this software and the underlying SOLWEIG and UMEP publications listed in NOTICE.md."
+type: software
+title: "SOLWEIG-CUDA: Improved Modeling of Urban Scale Outdoor Heat Stress"
+version: "1.0.0"
+repository-code: "https://github.com/zetingli/SOLWEIG-CUDA"
+authors:
+  - family-names: Li
+    given-names: Zeting
+    email: zeting.li@ucdconnect.ie
+license: GPL-3.0-or-later
+abstract: >-
+    SOLWEIG-CUDA is a GPU-accelerated implementation of the SOLWEIG model for simulating outdoor radiation and thermal comfort in urban environments. It calculates mean radiant temperature (MRT), the Universal Thermal Climate Index (UTCI), and radiation fields using custom CUDA kernels through CuPy. Numerical validation against the standard SOLWEIG implementation demonstrates excellent agreement.
+
+keywords:
+  - SOLWEIG
+  - CUDA
+  - mean radiant temperature
+  - UTCI
